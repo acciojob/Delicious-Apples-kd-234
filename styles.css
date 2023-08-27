@@ -85,7 +85,7 @@ li{
 }
 
 .product__info{
-	background-color:red;
+	
 	width:350px;
 	height:350px;
 	padding-left:0px;
@@ -113,7 +113,7 @@ h1{
 }
  
 .price{
-	
+	color:#FE3E3F;
 	position:absolute;
 	bottom:140px;
 	left:20px;
@@ -122,9 +122,10 @@ h1{
 	
 }
 h3{
+	color:lightgray;
 	padding-top:30px;
 	position:relative;
-	top:160px;
+	top:130px;
 	left:0px;
 	font-size:15px;
 }
@@ -132,10 +133,9 @@ h3{
 	border:1px solid lightgray;
 }
 .apple-ul{
-	padding-top:160px;
+	padding-top:140px;
 	position:relative;
 	left:20px;
-	
 	
 	
 }
@@ -144,8 +144,20 @@ h3{
 	width:50
 
 }
+.list-apple{
+	border:none;
+}
+.benefits{
+	border:none;
+	font-size:14px
+}
 
-
-
+.apple-details{
+	border:2px; solid black;
+	width:240px;
+}
+.heading-3{
+	padding-botton:100px;
+}
 
 
