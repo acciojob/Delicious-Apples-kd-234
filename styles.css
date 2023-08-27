@@ -149,15 +149,33 @@ h3{
 }
 .benefits{
 	border:none;
-	font-size:14px
+	font-size:12px;
+	line-height:15px;
 }
 
 .apple-details{
 	border:2px; solid black;
-	width:240px;
+	width:260px;
+	padding-top:50px;
+	font-size:0px;
 }
 .heading-3{
 	padding-botton:100px;
+	position:absolute;
+	top:300px;
 }
+.btn{
 
+	width:120px;
+	height:32px;
+	position:relative;
+	top:40px;
+	left:40px;
+	border-radius:5px;
+	color:white;
+	background-color:#FE3E3F;
+	border:none;
+
+	
+}
 
