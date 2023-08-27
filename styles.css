@@ -30,13 +30,13 @@ body{
 	position:relative;
 	right:20px
 	margin-top:20px;
-	border-radius:5px;
+	border-radius:8px;
 	
 }
 .photo-container{
 	background-color:rgb(169,228,39);
 
-	height:500px;
+	height:450px;
 	margin:30px;
 	border-radius:5px;
 	position:relative;
@@ -62,7 +62,24 @@ body{
 	padding-left:278px;	
 }
 
-.photo-album;
+.photo-album{
+
+	
+
+	width:340px;
+	height:90px;
+	position:relative;
+	top:75px;
+	background-color:white;
+	box-shadow: 1px 5px 0px 0px  #E1E1E1;
+	border-radius: 0px 0px 8px 8px;
+	
+	
+}
+
+.photo-album>ul>li>img{
+	
+}
 
 
 
