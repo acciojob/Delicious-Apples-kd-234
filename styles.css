@@ -1,1 +1,33 @@
 /* your code here */
+body{
+	background-color:rgb(15,227,126);
+}
+
+.product{
+	display:flex;
+	justify content:center;
+	content-items:center;
+	width:600px;
+	height:600px;
+	background-color:white;
+
+	
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+
+	
+}
+
+.product__photo{
+
+	display:inline-block;
+}
+.photo-container{
+	background-color:rgb(169,228,39);
+
+	height:500px;
+	margin:10px;
+	
+}
+
