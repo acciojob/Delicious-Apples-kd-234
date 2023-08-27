@@ -8,9 +8,6 @@ body{
 }
 
 .product{
-	display:flex;
-	justify content:center;
-	content-items:center;
 	width:600px;
 	height:600px;
 	background-color:white;
@@ -35,7 +32,7 @@ body{
 }
 .photo-container{
 	background-color:rgb(169,228,39);
-
+	width:300px;
 	height:450px;
 	margin:30px;
 	border-radius:5px;
@@ -46,27 +43,27 @@ body{
 .photo-main{
 	position:relative;
 	right:60px;
-	top:25px;
+	top:px;
 }
 
 .controls{
 	color:white;
 	
 	position:relative;
-	left:60px;
-	bottom:10px;
-	padding-left:15px;
+	left:80px;
+	top:10px;
+	
 	
 }
 .fa-heart-o{
-	padding-left:278px;	
+	padding-left:230px;	
 }
 
 .photo-album{
 
 	
 
-	width:340px;
+	width:300px;
 	height:90px;
 	position:relative;
 	top:75px;
@@ -81,9 +78,16 @@ li{
 	display:inline-block;
 	border:1px solid lightgray;
 	position:relative;
-	left:45px;
-	top:13px;	
-	
+	left:20px;
+	top:13px;		
+}
+
+.product__info{
+	background-color:red;
+	width:350px;
+	padding-left:0px;
+	display:relative;
+	left:20px;
 }
 
 
