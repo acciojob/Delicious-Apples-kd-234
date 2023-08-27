@@ -77,9 +77,15 @@ body{
 	
 }
 
-.photo-album>ul>li>img{
+li{
+	display:inline-block;
+	border:1px solid lightgray;
+	position:relative;
+	left:45px;
+	top:13px;	
 	
 }
+
 
 
 
