@@ -5,6 +5,8 @@
 }
 body{
 	background-color:rgb(15,227,126);
+	text-decoretion:none;
+	font-family:arial;
 }
 
 .product{
@@ -85,10 +87,64 @@ li{
 .product__info{
 	background-color:red;
 	width:350px;
+	height:350px;
 	padding-left:0px;
-	display:relative;
-	left:20px;
+	position:absolute;
+	left:300px;
+	bottom:180px;
+	
 }
+.title{
+	padding-top:20px;
+}
+h1{
+	font-family:arial;
+}
+.code{
+	padding-top:30px;
+	font-size:20px;
+	color:lightgray;
+	position:relative;
+	top:10px;
+}
+.price-1{
+	font-size:40px;
+	padding-left:20px;
+}
+ 
+.price{
+	
+	position:absolute;
+	bottom:140px;
+	left:20px;
+	font-size:20px;
+	
+	
+}
+h3{
+	padding-top:30px;
+	position:relative;
+	top:160px;
+	left:0px;
+	font-size:15px;
+}
+#green{
+	border:1px solid lightgray;
+}
+.apple-ul{
+	padding-top:160px;
+	position:relative;
+	left:20px;
+	
+	
+	
+}
+.apple{
+	max-width:30px;
+	width:50
+
+}
+
 
 
 
